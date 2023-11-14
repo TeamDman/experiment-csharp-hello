@@ -35,7 +35,7 @@ jobs:
           registryPassword: ${{ secrets.MYCONTAINERAPP_REGISTRY_PASSWORD }}
           containerAppName: my-container-app
           resourceGroup: my-container-apps
-          imageToBuild: ghcr.io/experiment-csharp-hello:${{ github.sha }}
+          imageToBuild: ghcr.io/teamdman/experiment-csharp-hello:${{ github.sha }}
           
 
      
