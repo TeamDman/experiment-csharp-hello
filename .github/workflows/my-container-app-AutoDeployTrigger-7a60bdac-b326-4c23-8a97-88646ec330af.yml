@@ -36,6 +36,7 @@ jobs:
           containerAppName: my-container-app
           resourceGroup: my-container-apps
           imageToBuild: ghcr.io/teamdman/experiment-csharp-hello:${{ github.sha }}
+          targetPort: 8080
           
 
      
